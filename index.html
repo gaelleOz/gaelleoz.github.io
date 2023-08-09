@@ -9,40 +9,48 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/270f96d986.js" crossorigin="anonymous"></script>
   <title>Le desjeuneur</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-   <img src="images/icone.jpg" alt="logo desjeuneur" class="logo">
-   <img src="images/coq.jpg" alt="logo desjeuneur" class="coq">
-    <button class="navbar-toggler pe-2 custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav d-flex align-items-center gap-4 ml-auto">
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="/index.html">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="/menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="/menu.html">Notre histoire</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="/valeurs.html">Nos valeurs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="/resas.html">Comment venir?</a>
-        </li>
-      </ul>
+  <nav class="navbar-perso navbar-expand-lg navbar-light">
+    <div class="d-flex justify-content-between align-items-center">
+
+      <!-- Logo container -->
+      <div class="logo-container">
+        <img src="images/icone.jpg" alt="logo desjeuneur" class="logo">
+      </div>
+
+      <!-- Coq container -->
+      <div class="coq-center-container">
+        <img src="images/coq.jpg" alt="logo desjeuneur" class="coq">
+      </div>
+
+      <!-- Navigation items -->
+      <div class="nav-items-container">
+        <ul class="navbar-nav d-flex align-items-center justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/histoire.html">Histoire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/valeurs.html">Valeurs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/resas.html">Venir</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </nav>
+
 <div class="container-perso">
 
 </div>
@@ -58,14 +66,15 @@
           <li class="pb-2 contact text-center">Nous contacter:</li>
           <div>
             <li><a href="mailto:maria.restaurantlyon@gmail.com">ledesjeuneur@gmail.com</a></li>
-            <li>0660787458</li>
-            <br>
+            <li class="text-center">0660787458</li>
+            <div class="text-center">
             <div class="circle-icon">
               <i class="fab fa-instagram fa-lg" style="color:black"></i>
             </div>
             <div class="circle-icon">
               <i class="fab fa-facebook-f" style="color: black"></i>
             </div>
+          </div>
           </div>
         </ul>
       </div>
