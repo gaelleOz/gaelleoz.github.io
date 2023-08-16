@@ -76,19 +76,10 @@ li {
   margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
 }
 
-
-.container-perso {
-  background-image: url("images/salle\ 2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 60vh;
-  width: 100%;
-}
-
 .banner {
   font-family: 'Yeseva One', cursive;
   font-size: 100px;
-  color:whitesmoke;
+  color: black;
 }
 
 .intro {
@@ -118,10 +109,11 @@ li {
 
 
 .container-perso {
-  background-image: url("images/salle\ 2.jpeg");
+  background-image: url("images/Photo\ 29-08-2017\ 14\ 08\ 33.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 60vh;
+  background-position: center;
+  min-height: 40vh;
   width: 100%;
 }
 
@@ -140,8 +132,22 @@ li {
 .book {
   font-family: 'Yeseva One', cursive;
   font-size: 30px;
-  margin: 60px 300px 60px 300px;
+  margin: 100px 20px;
   text-align: center;
+}
+
+.QRcode {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optionnel : centrer verticalement sur toute la hauteur de la fenêtre */
 }
 
 

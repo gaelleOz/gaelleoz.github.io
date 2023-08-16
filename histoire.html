@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="histoire.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,76 +18,96 @@
 </head>
 
 <body>
-  <nav class="navbar-perso navbar-expand-lg navbar-light">
-    <div class="d-flex justify-content-between align-items-center">
-
-      <!-- Logo container -->
-      <div class="logo-container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="/index.html">
         <img src="images/icone.jpg" alt="logo desjeuneur" class="logo">
-      </div>
-
-      <!-- Coq container -->
-      <div class="coq-center-container">
-        <img src="images/coq.jpg" alt="logo desjeuneur" class="coq">
-      </div>
-
-      <!-- Navigation items -->
-      <div class="nav-items-container">
-        <ul class="navbar-nav d-flex align-items-center justify-content-end">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/index.html">Accueil</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/menu.html">Menu</a>
+            <a class="nav-link" href="/menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/histoire.html">Histoire</a>
+            <a class="nav-link" href="/histoire.html">Histoire</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/valeurs.html">Valeurs</a>
+            <a class="nav-link" href="/valeurs.html">Valeurs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/resas.html">Venir</a>
+            <a class="nav-link" href="/resas.html">Venir</a>
           </li>
         </ul>
       </div>
-
     </div>
   </nav>
+
   <section>
-    <div class="container-perso d-flex align-items-center justify-content-center">
-      <p class="banner">Notre histoire</p>
+    <div class="container-perso d-flex flex-column align-items-center justify-content-center">
+      <p class="banner text-center">Notre histoire</p>
     </div>
-    <p class="intro">Le DESJEUNEUR (de.ʒœ.ne) n.m singulier, (fin XIIe siècle; de desjeûner). L'utilisation de "des-",
-      "dé-", préfixe qui indique l’arrêt et jeûne.
-      Littéralement,« arrêter le jeûne », du latin disjejunare, puis disjunare « briser le jeûne ».</p>
-    <p class="intro">Sous Louis XIV, le déjeuner devint le repas de midi puisque le roi se levait tard...
-      conclusion :</p>
-      <p class="intro"> SOYEZ ROYAL ! </p>
-    <p class="intro">
-      Le CONCEPT ?
-      Le desjeuneur vous propose une carte de petits dejeuner, de plats du jour, pâtisseries, soupes, croques...
-      ICI vous pouvez bruncher TOUS les jours !</p>
+
+    <section>
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <p class="intro text-center">
+          Pourquoi "Le desjeuneur"?
+        </p>
+        <p class="intro text-center">
+          Le DESJEUNEUR (de.ʒœ.ne) n.m singulier (fin XIIe siècle)
+        </p>
+        <p class="intro text-center">
+          Littéralement,« arrêter le jeûne », du latin disjejunare, puis disjunare « briser le jeûne ».
+        </p>
+        <p class="intro text-center">
+          Sous Louis XIV, le déjeuner devint le repas de midi puisque le roi se levait tard... conclusion :
+        </p>
+        <p class="intro fst-italic text-center">
+          SOYEZ ROYAL !
+        </p>
+        <p class="intro text-center">
+          Le CONCEPT ?
+        </p>
+        <p class="intro text-center">
+          Le desjeuneur vous propose une carte de petits-déjeuners, de plats du jour, pâtisseries, soupes, croques...
+        </p>
+        <p class="intro text-center">
+          ICI vous pouvez bruncher TOUS les jours !
+        </p>
+      </div>
+    </section>
+
   </section>
+
   <footer>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-md-start">
           <p class="pb-2">Nous trouver:</p>
-          <p>3 rue des pierres plantées<br>69001 LYON</p>
+          <p class="text-center"><a class="nav-link text-dark"
+              href="https://www.google.com/maps?q=3+rue+des+pierres+plantées,+69001+Lyon" target="_blank">3 rue des
+              pierres plantées<br>69001 LYON</a></p>
         </div>
         <div class="col-md-4 d-flex justify-content-center">
           <ul class="list-unstyled text-center text-md-start">
             <li class="pb-2 contact text-center">Nous contacter:</li>
             <div>
               <li><a href="mailto:maria.restaurantlyon@gmail.com">ledesjeuneur@gmail.com</a></li>
-              <li class="text-center">0660787458</li>
+              <li class="text-center"><a class="nav-link text-dark" href="tel:0660787458">0660787458</a></li>
               <div class="text-center">
                 <div class="circle-icon">
-                  <i class="fab fa-instagram fa-lg" style="color:black"></i>
+                  <a href="https://www.instagram.com/ledesjeuneur/" target="_blank"><i class="fab fa-instagram fa-lg"
+                      style="color:black"></i></a>
                 </div>
                 <div class="circle-icon">
-                  <i class="fab fa-facebook-f" style="color: black"></i>
+                  <a href="https://www.facebook.com/ledesjeuneur" target="_blank"><i class="fab fa-facebook-f"
+                      style="color: black"></i></a>
                 </div>
               </div>
             </div>
@@ -94,34 +115,34 @@
         </div>
         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center align-md-start">
           <p class="pb-2">Horaires d'ouverture:</p>
-          <p>La cuisine ferme à 14h en semaine et 16h le week-end </p>
+          <p>La cuisine ferme à 14h en semaine et 16h le week-end.</p>
           <div class="d-flex flex-column gap-2">
             <div class="d-flex justify-content-between">
-              <span>Lundi:</span>
+              <span>Lun:</span>
               <div>10h-16h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Mardi:</span>
+              <span>Mar:</span>
               <div>10h-16h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Mercredi:</span>
+              <span>Mer:</span>
               <div>10h-16h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Jeudi:</span>
+              <span>Jeu:</span>
               <div>10h-16h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Vendredi:</span>
+              <span>Ven:</span>
               <div>10h-16h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Samedi:</span>
+              <span>Sam:</span>
               <div>10h-18h</div>
             </div>
             <div class="d-flex justify-content-between">
-              <span>Dimanche:</span>
+              <span>Dim:</span>
               <div>10h-18h</div>
             </div>
           </div>
@@ -129,6 +150,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </body>
 
 </html>

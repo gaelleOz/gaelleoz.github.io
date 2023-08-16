@@ -76,18 +76,10 @@ li {
   margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
 }
 
-.container-perso {
-  background-image: url("images/salle\ 2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 60vh;
-  width: 100%;
-}
-
 .banner {
   font-family: 'Yeseva One', cursive;
   font-size: 100px;
-  color:whitesmoke;
+  color:#FBEDDA;
 }
 
 .intro {
@@ -117,10 +109,10 @@ li {
 
 
 .container-perso {
-  background-image: url("images/salle\ 2.jpeg");
+  background-image: url("images/Photo\ 10-11-2021\ 11\ 20\ 32.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 40vh;
   width: 100%;
 }
 

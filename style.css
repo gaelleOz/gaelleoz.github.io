@@ -6,17 +6,22 @@
 
 html{
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body{
   font-family: 'Yeseva One', cursive;
   height: 100%;
   background-color: #FBEDDA;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-perso {
   margin: 0 20px 0 20px;
-  padding: 10px 0 10px 0;
+  padding: 7px 0 7px 0;
 }
 
 .logo-container {
@@ -55,6 +60,16 @@ body{
   flex: 1;
 }
 
+.container-logo-intro {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.logo-intro {
+  width: 600px;
+}
+
+
 .coq-center-container {
   display: flex;
   justify-content: center;
@@ -80,15 +95,6 @@ body{
 
 .nav-item {
   margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
-}
-
-
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
 }
 
 .custom-toggler  {
@@ -139,8 +145,13 @@ body{
   background-image: url("images/salle.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: calc(100vh - 28px);
   width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-image {
@@ -175,7 +186,7 @@ body{
 }
 
 .coq {
-  width: 60px;
+  width: 50px;
 }
 
 .navbar-perso a {
@@ -189,9 +200,24 @@ body{
   color:red;
 }
 
-
 h2, h4 {
   margin-bottom: 0px;
+}
+
+.horaires {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+.trust {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 100px;
+}
+
+.carousel-image {
+  height: 600px; /* Ajustez la valeur de la hauteur selon vos besoins */
+  object-fit: cover; /* Ajustez le mode d'ajustement de l'image si nécessaire */
 }
 
 .img-fluid {
@@ -222,10 +248,10 @@ footer {
   background-color: #FBEEDA;
   font-size: 18px;
   margin: 0 auto;
-  padding: 40px;
-  margin-top: 30px;
+  padding: 20px;
+  margin-top: 20px;
   border-top: 0.5px solid #f7d298;
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Work sans', sans-serif;
 }
 
 footer a {
@@ -239,7 +265,7 @@ footer a:hover {
 }
 
 .contact{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .text{

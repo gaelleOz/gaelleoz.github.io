@@ -92,18 +92,40 @@ li {
 }
 
 .container-perso {
-  background-image: url("images/salle\ 2.jpeg");
+  background-image: url("images/Photo\ 08-05-2021\ 00\ 23\ 18.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 60vh;
+  background-position: right;
+  min-height: 40vh;
   width: 100%;
 }
 
 .banner {
   font-family: 'Yeseva One', cursive;
   font-size: 100px;
-  color:whitesmoke;
+  color: #fbedda;
 }
+/* Style des boutons de section */
+.section-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.section-button {
+  border: none;
+  background-color: #fbedda;
+  padding: 10px 20px;
+  margin: 0 30px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #f7d298;
+}
+
+.section-button:hover {
+  background-color: #f7d298;
+}
+
 
 .menu {
   padding: 60px;
@@ -114,41 +136,63 @@ li {
 }
 
 .card-menu {
-  margin: 0 auto;
-  width: 900px;
+  max-width: 100%;
   border-bottom: 1px solid lightgrey;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .carte {
   font-family: 'Yeseva One', cursive;
-  font-size: 80px;
-  margin-bottom: 80px;
+  font-size: 40px;
+  margin-bottom: 40px;
   border-bottom: 1px solid lightgrey;
-  width: 500px;
+  width: auto;
+  text-align: center;
 }
+
 .card-title {
   font-family: 'Yeseva One', cursive;
-  font-size: 30px;
+  font-size: 24px;
+  padding-left: 1rem;
+}
+
+.card-menu-item {
+  max-width: 100%;
 }
 
 .card-infos {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
+  padding-left: 2rem;
 }
 
 .price {
   font-family: 'Yeseva One', cursive;
-  font-size: 20px;
-  padding: 30px;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.price-boissons {
+  font-family: 'Yeseva One', cursive;
+  font-size: 16px;
+  padding-left: 10px;
 }
 
 .brunch-price {
   font-family: 'Yeseva One', cursive;
-  font-size: 40px;
-  padding: 30px;
+  font-size: 28px;
+  padding: 10px 0;
 }
+
+.in-card {
+  padding-left: 2rem;
+}
+
+.in-card-infos {
+  padding-left: 4rem;
+}
+
 
 .circle-icon {
   display: inline-block;
