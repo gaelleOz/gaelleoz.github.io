@@ -92,10 +92,10 @@ li {
 }
 
 .container-perso {
-  background-image: url("images/Photo\ 08-05-2021\ 00\ 23\ 18.jpg");
+  background-image: url("images/Photo\ 26-01-2022\ 12\ 06\ 57.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: 40% 50%;
   min-height: 40vh;
   width: 100%;
 }
@@ -177,6 +177,15 @@ li {
   font-family: 'Yeseva One', cursive;
   font-size: 16px;
   padding-left: 10px;
+  padding-right: 300px;
+}
+
+.category-drinks {
+  font-family: 'Yeseva One', cursive;
+  font-size: 30px;
+  padding-left: 1rem;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .brunch-price {
@@ -193,6 +202,28 @@ li {
   padding-left: 4rem;
 }
 
+.in-card-infos-drinks {
+  padding-left: 4rem;
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'Noto Sans', sans-serif;
+  color: #000343;
+}
+
+.quantity {
+  font-family: 'Yeseva One', cursive;
+  font-size: 15px;
+  font-style: italic;
+  padding-left: 30px;
+  margin-bottom: 0.5rem;
+}
+
+.quantity-tea {
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 20px;
+}
 
 .circle-icon {
   display: inline-block;

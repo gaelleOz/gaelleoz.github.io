@@ -79,7 +79,7 @@ li {
 .banner {
   font-family: 'Yeseva One', cursive;
   font-size: 100px;
-  color: black;
+  color:#FBEEDA;
 }
 
 .intro {
@@ -109,7 +109,7 @@ li {
 
 
 .container-perso {
-  background-image: url("images/Photo\ 29-08-2017\ 14\ 08\ 33.jpg");
+  background-image: url("images/image004.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,8 +137,8 @@ li {
 }
 
 .QRcode {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
   display: block;
 }

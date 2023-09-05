@@ -85,7 +85,7 @@ li {
 .intro {
   font-family: 'Yeseva One', cursive;
   font-size: 30px;
-  margin: 60px 300px 60px 300px;
+  margin: 60px 300px 30px 300px;
 }
 
 .logo {
@@ -112,6 +112,7 @@ li {
   background-image: url("images/Photo\ 10-11-2021\ 11\ 20\ 32.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 80% 70%;
   min-height: 40vh;
   width: 100%;
 }

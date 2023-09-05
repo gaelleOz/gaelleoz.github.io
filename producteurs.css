@@ -79,13 +79,50 @@ li {
 .banner {
   font-family: 'Yeseva One', cursive;
   font-size: 100px;
-  color:whitesmoke;
+  color:#FBEDDA
 }
+
+
 
 .intro {
   font-family: 'Yeseva One', cursive;
   font-size: 30px;
   margin: 60px 90px 60px 90px;
+}
+
+.description {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+.product-list {
+max-width: 800px;
+margin: auto;
+padding: 2rem;
+background-color: #FBEEDA;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list h2 {
+color: black;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+.list {
+padding: 0.5rem 0;
+border-bottom: 1px solid #e0e0e0;
+}
+
+li:last-child {
+border-bottom: none;
 }
 
 .logo {
@@ -108,9 +145,10 @@ li {
 }
 
 .container-perso {
-  background-image: url("images/Photo\ 23-11-2021\ 16\ 51\ 22.jpg");
+  background-image: url("images/Photo\ 03-01-2021\ 10\ 17\ 04.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 90% 60%;
   min-height: 40vh;
   width: 100%;
 }
