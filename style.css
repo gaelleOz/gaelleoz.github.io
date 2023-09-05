@@ -19,13 +19,18 @@ body{
   padding: 0;
 }
 
-.nav-item {
-  margin-right: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
+  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
 }
 
-
-.logo-container {
-  flex: 1;
+.nav-item {
+  margin-right: 20px;
+  margin-left: 20px;  /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
 }
 
 .container-logo-intro {
@@ -37,32 +42,11 @@ body{
   width: 600px;
 }
 
-
-.coq-center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
-.coq {
-  max-width: 100%;
-  height: auto;
-}
-
-.nav-items-container {
-  flex: 1;
-}
-
 .navbar-nav {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.nav-item {
-  margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
 }
 
 .custom-toggler  {

@@ -4,6 +4,19 @@ body{
   background-color: #FBEDDA;
 }
 
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
+  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
+}
+
+.nav-item {
+  margin-right: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
+}
+
 li {
   list-style-type: none;
 }
@@ -22,11 +35,6 @@ li {
   justify-content: center;
   align-items: center;
   flex: 1;
-}
-
-.coq {
-  max-width: 100%;
-  height: auto;
 }
 
 .nav-items-container {
@@ -130,7 +138,7 @@ border-bottom: none;
 }
 
 .coq {
-  width: 60px;
+  width: 50px;
 }
 
 .navbar-perso a {
@@ -145,10 +153,10 @@ border-bottom: none;
 }
 
 .container-perso {
-  background-image: url("images/Photo\ 03-01-2021\ 10\ 17\ 04.jpg");
+  background-image: url("images/Photo\ 16-09-2021\ 11\ 30\ 35.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90% 60%;
+  background-position: 10% 59%;
   min-height: 40vh;
   width: 100%;
 }

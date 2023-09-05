@@ -4,29 +4,29 @@ body{
   background-color: #FBEDDA;
 }
 
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
+  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
+}
+
+.nav-item {
+  margin-right: 20px;
+  margin-left: 20px;  /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
+}
+
 li {
   list-style-type: none;
-}
-
-.navbar-perso {
-  margin: 0 20px 0 20px;
-  padding: 10px 0 10px 0; /* Changer la couleur de fond selon vos besoins */
-}
-
-.logo-container {
-  flex: 1;
-}
-
-.coq-center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
-.coq {
-  max-width: 100%;
-  height: auto;
 }
 
 .nav-items-container {
@@ -39,11 +39,6 @@ li {
   padding: 0;
   display: flex;
 }
-
-.nav-item {
-  margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
-}
-
 
 .logo-container {
   flex: 1;
@@ -61,7 +56,7 @@ li {
 }
 
 .coq {
-  width: 60px;
+  width: 50px;
 }
 
 .navbar-perso a {
@@ -92,10 +87,10 @@ li {
 }
 
 .container-perso {
-  background-image: url("images/Photo\ 26-01-2022\ 12\ 06\ 57.jpg");
+  background-image: url("images/Photo\ 10-11-2021\ 11\ 20\ 32.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40% 50%;
+  background-position: 80% 70%;
   min-height: 40vh;
   width: 100%;
 }
