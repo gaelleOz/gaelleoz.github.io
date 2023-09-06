@@ -38,6 +38,13 @@ body{
   margin-top: 100px;
 }
 
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ajoutez d'autres styles nécessaires */
+}
+
 .logo-intro {
   width: 600px;
 }
@@ -97,7 +104,7 @@ body{
   background-image: url("images/salle.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 28px);
+  height: 100vh;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -137,19 +144,28 @@ body{
   width: 170px;
 }
 
-.coq {
-  width: 50px;
+.icone {
+  width: 300px;
+  margin-top: 10px;
 }
 
-.navbar-perso a {
-  color: black;
+.coq {
+  width: 70px;
+}
+
+.navbar-perso a:hover {
+  color: brown;
   text-decoration: none;
-  font-family: 'Yeseva One';
-  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
 }
 
 .nav-link {
-  color:red;
+  color: black;
+  text-decoration: none;
+  font-family: 'Yeseva One';
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 h2, h4 {
@@ -161,6 +177,35 @@ h2, h4 {
   margin-bottom: 40px;
   font-size: 25px;
 }
+
+/* Styles pour le conteneur du texte qui défile */
+/* Styles pour le conteneur du texte qui défile */
+.scrolling-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* Styles pour le texte à l'intérieur du conteneur */
+.scrolling-text p {
+  display: inline-block;
+  animation: scrollText 10s linear infinite;
+  transform: translateX(-100%); /* Démarrer du bord gauche de l'écran */
+}
+
+/* Définition de l'animation */
+@keyframes scrollText {
+  0% {
+    transform: translateX(-100%); /* Démarrer du bord gauche de l'écran */
+  }
+  50% {
+    transform: translateX(100%); /* Déplacer vers le bord droit */
+  }
+  100% {
+    transform: translateX(-100%); /* Revenir du bord gauche */
+  }
+}
+
 
 .QRcode {
   width: 400px;
@@ -247,4 +292,53 @@ footer a:hover {
   text-align: center;
   margin-bottom: 0px;
   font-family: 'Yeseva One', cursive;
+}
+
+.intro{
+  padding: 210px 0 100px 0;
+}
+
+.intro .intro-title {
+  position: absolute;
+  top: 0;
+  left: 115px;
+  text-transform: uppercase;
+}
+
+.intro .intro-inner {
+    position: relative;
+}
+
+h1 {
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.shell {
+  max-width: 1280px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: auto;
+}
+
+.intro .intro-image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 61%;
+  background-image: url('images/salle.jpeg');
+}
+
+.intro .intro-entry {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 70px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight:300;
+  line-height: 1.4;
+  font-family: 'Work Sans', sans-serif;
 }

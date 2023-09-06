@@ -100,18 +100,25 @@ li {
   width: 170px;
 }
 
-.navbar-perso a {
-  color: black;
+.icone {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.navbar-perso a:hover {
+  color: brown;
   text-decoration: none;
-  font-family: 'Yeseva One';
-  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
 }
 
 .nav-link {
-  color:red;
+  color: black;
+  text-decoration: none;
+  font-family: 'Yeseva One';
+  font-size: 24px;
+  text-transform: uppercase;
 }
-
-
 .container-perso {
   background-image: url("images/image004.jpg");
   background-repeat: no-repeat;
@@ -135,10 +142,37 @@ li {
 
 .book {
   font-family: 'Yeseva One', cursive;
-  font-size: 30px;
-  margin: 100px 20px;
+  font-size: 55px;
+  margin: 30px 20px;
   text-align: center;
 }
+
+.book-2 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.steps {
+  font-family: 'Yeseva One', cursive;
+  font-size: 60px;
+  margin: 80px 20px;
+  text-align: center;
+}
+
+.step-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color:#f7d298;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
 
 .QRcode {
   width: 400px;

@@ -18,12 +18,15 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-navbar">
+  <nav class="navbar navbar-expand-lg fixed-navbar">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <div class="d-flex align-items-center">
         <div class="mx-2 d-none d-lg-block">
           <!-- Ajoutez la classe "d-none d-lg-block" pour cacher le coq sur les écrans de petite taille -->
           <img src="images/coq.jpg" alt="logo coq" class="coq">
+        </div>
+        <div class="mx-2 d-none d-lg-block">
+          <img src="images/icone.jpg" alt="logo coq" class="icone">
         </div>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,12 +48,13 @@
             <a class="nav-link" href="/producteurs.html">Producteurs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/resas.html">Venir</a>
+            <a class="nav-link" href="/resas.html">Comment venir?</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
 
   <section>
     <div class="container-perso d-flex align-items-center justify-content-center">
@@ -60,27 +64,43 @@
   <section>
     <p class="book">NOTRE FILE D'ATTENTE VIRTUELLE</p>
     <img src="images/SKEEP IT.png" alt="QR code" class="QRcode">
-    <p class="book"> Pas de réservations mais un système de liste d'attente virtuelle avec l'app<strong>
+    <p class="book-2"> Pas de réservations mais un système de liste d'attente virtuelle avec l'app<strong>
         SKEEPIT</strong>!
-    <p class="book">Vous venez au restaurant directement sans réservations.
+    <p class="book-2">Vous venez au restaurant directement sans réservations.
       Premier arrivé, premier installé. Plus vous venez tôt (on ouvre à 10h), plus vous avez des chances d'avoir une
       table directement!</p>
+      <p class="text-center steps">Comment ça marche?</p>
     <div class="row align-items-center">
       <div class="col-md-4">
         <img src="images/SKEEP IT.png" alt="QR code" class="QRcode">
       </div>
-      <div class="col-md-8">
-        <p class="book m-4">
-          Lorsque le restaurant est plein, nous ouvrons une file d'attente virtuelle via l'application SKEEPIT, (la file
-          n'est pas ouverte si le restaurant n'est pas plein).
-          Il vous suffit alors de vous inscrire dessus.
-          Le logiciel vous enverra directement un sms quand la table est prête pour vous.
-          Ainsi vous pouvez vous balader, faire les courses, profiter de la vue pendant l'attente, pas besoin de rester
-          devant le restaurant.
-          Scanne ce QR code ou télécharge l'app de SKEEPIT et rejoins la file d'attente virtuelle lorsque le restaurant
-          est plein!
-        </p>
+      <div class="col-md-8 pe-5">
+        <ol class="book-2 m-4">
+          <li>
+            <p>
+              <span class="step-number">1</span> Lorsque le restaurant est plein, nous ouvrons une file d'attente virtuelle via l'application SKEEPIT, (la file
+              n'est pas ouverte si le restaurant n'est pas plein).
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="step-number">2</span> Il vous suffit alors de vous inscrire dessus.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="step-number">3</span> Le logiciel vous enverra directement un SMS quand la table est prête pour vous.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="step-number">4</span> Ainsi vous pouvez vous balader, faire les courses, profiter de la vue pendant l'attente, pas besoin de rester
+              devant le restaurant.
+            </p>
+          </li>
+        </ol>
       </div>
+
     </div>
   </section>
 
@@ -97,7 +117,7 @@
           <ul class="list-unstyled text-center text-md-start">
             <li class="pb-2 contact text-center">Nous contacter:</li>
             <div>
-              <li><a href="mailto:maria.restaurantlyon@gmail.com">ledesjeuneur@gmail.com</a></li>
+              <li><a href="mailto:ledesjeuneur@gmail.com">ledesjeuneur@gmail.com</a></li>
               <li class="text-center"><a class="nav-link text-dark" href="tel:0660787458">0660787458</a></li>
               <div class="text-center">
                 <div class="circle-icon">
@@ -157,7 +177,8 @@
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
 
 </body>
 
