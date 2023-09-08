@@ -19,13 +19,12 @@ body{
   padding: 0;
 }
 
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
-  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
+.navbar{
+  background-color: #FBEEDA;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
 
 .navbar-nav {
@@ -52,12 +51,52 @@ body{
   padding: 210px 0 100px 0;
 }
 
+@media (max-width: 991.98px) { /* Appliquez le style uniquement sur mobile et tablette */
+  .intro {
+      margin-top: 6rem;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  nav.fixed-top {
+    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
+  }
+
+}
+
 .intro .intro-title {
   position: absolute;
   top: 0;
   left: 115px;
   text-transform: uppercase;
 }
+
+@media (max-width: 767px) {
+  .intro {
+      text-align: center; /* Centrer le contenu horizontalement */
+      margin-top: 2rem; /* Ajouter un espace au-dessus du contenu */
+  }
+  .intro .intro-title {
+      font-size: 40px;
+      position: relative;
+      padding-bottom: 30px;
+      left: 0;/* Ajouter un espace en bas du titre */
+  }
+  .intro-entry  {
+      display:none;/* Réduire la taille de la police */
+  }
+  .coq {
+    width: 30px;
+  }
+  .navbar{
+    position: sticky;
+  }
+}
+
 
 .intro .intro-inner {
     position: relative;
@@ -211,6 +250,21 @@ h1 {
   font-size: 100px;
 }
 
+@media (max-width: 767px) {
+  .trust {
+    font-size: 60px;
+  }
+  .intro {
+    padding: 0px;
+  }
+  .container-logo-intro {
+    margin-top: 0px;
+  }
+  .coq {
+    width: 50px;
+  }
+}
+
 .carousel-image {
   height: 600px; /* Ajustez la valeur de la hauteur selon vos besoins */
   object-fit: cover; /* Ajustez le mode d'ajustement de l'image si nécessaire */
@@ -231,6 +285,7 @@ h1 {
   text-align: center;
   line-height: 50px;
   margin: 3px;
+  margin-bottom: 20px;
   background-color: #FBEEDA /* Espace entre les icônes */
 }
 
@@ -250,17 +305,21 @@ footer {
 }
 
 footer a {
-  color: black;
   font-family: 'Yeseva One', cursive;
   text-decoration: none;
+  color: #212529;
+
 }
 
 footer a:hover {
-  color: #f7d298;
+  color: brown;
 }
 
-.contact{
-  margin-bottom: 1.5rem;
+.nav-link-footer {
+  text-decoration: none;
+  font-family: 'Yeseva One';
+  font-size: 16px;
+  margin: 2px;
 }
 
 .text{
@@ -271,8 +330,25 @@ footer a:hover {
   margin-bottom: 100px;
 }
 
+.hour {
+  font-family: 'Yeseva One', cursive;
+  font-size: 16px;
+}
+
 .copyright {
   text-align: center;
   margin-bottom: 0px;
   font-family: 'Yeseva One', cursive;
+}
+
+@media (max-width: 1300px) {
+  .navbar-nav .nav-link {
+    font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
+  }
+  .coq {
+    width: 50px;
+  }
+  .icone {
+    width: 200px;
+  }
 }

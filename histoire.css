@@ -1,16 +1,28 @@
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth !important;
+}
+
 body{
   font-family: 'Yeseva One', cursive;
   height: 100%;
   background-color: #FBEDDA;
 }
 
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
-  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
+.navbar{
+  background-color: #FBEEDA;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
 
 .navbar-nav {
@@ -84,42 +96,7 @@ body{
   background-position: 40% 50%;
   min-height: 40vh;
   width: 100%;
-}
-
-footer {
-  background-color: #FBEEDA;
-  font-size: 18px;
-  margin: 0 auto;
-  padding: 40px;
-  margin-top: 30px;
-  border-top: 0.5px solid #f7d298;
-  font-family: 'Yeseva One', cursive;
-}
-
-footer a {
-  color: black;
-  font-family: 'Yeseva One', cursive;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #f7d298;
-}
-
-.circle-icon {
-  display: inline-block;
-  width: 30px; /* Ajustez la taille du cercle selon vos besoins */
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  text-align: center;
-  line-height: 50px;
-  margin: 3px;
-  background-color: #FBEEDA /* Espace entre les icônes */
-}
-
-.contact{
-  margin-bottom: 1rem;
+  margin-top: 8rem; /* Règle par défaut pour les grands écrans */
 }
 
 .text{
@@ -130,8 +107,87 @@ footer a:hover {
   margin-bottom: 100px;
 }
 
+@media (max-width: 767px) {
+  .container-perso {
+    margin-top: 2rem; /* Règle par défaut pour les grands écrans */
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .story {
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  nav.fixed-top {
+    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
+  }
+  .coq {
+    width: 50px;
+  }
+  .row {
+    margin-top: 20px;
+  }
+  .text-story{
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .text-story-2 {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  .text {
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+}
+
+footer {
+  background-color: #FBEEDA;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 0.5px solid #f7d298;
+  font-family: 'Work sans', sans-serif;
+}
+
+footer a {
+  font-family: 'Yeseva One', cursive;
+  text-decoration: none;
+  color: #212529;
+
+}
+
+footer a:hover {
+  color: brown;
+}
+
+.nav-link-footer {
+  text-decoration: none;
+  font-family: 'Yeseva One';
+  font-size: 16px;
+}
+
+.hour {
+  font-family: 'Yeseva One', cursive;
+  font-size: 16px;
+}
+
 .copyright {
   text-align: center;
   margin-bottom: 0px;
   font-family: 'Yeseva One', cursive;
+}
+
+
+@media (max-width: 1300px) {
+  .navbar-nav .nav-link {
+    font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
+  }
 }

@@ -10,31 +10,32 @@
   <link rel="stylesheet" href="histoire.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&family=Yeseva+One&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;600;800;900&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/270f96d986.js" crossorigin="anonymous"></script>
   <title>Notre histoire</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-navbar">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="nav-link" href="/index.html">
       <div class="d-flex align-items-center">
-        <div class="mx-2 d-none d-lg-block">
-          <!-- Ajoutez la classe "d-none d-lg-block" pour cacher le coq sur les écrans de petite taille -->
-          <img src="images/coq.jpg" alt="logo coq" class="coq">
+        <div class="mx-2 d-lg-block">
+          <img src="images/coq.jpg" alt="logo coq" class="coq navbar-brand">
         </div>
         <div class="mx-2 d-none d-lg-block">
           <img src="images/icone.jpg" alt="logo coq" class="icone">
         </div>
       </div>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/index.html">Home</a>
           </li>
@@ -54,7 +55,6 @@
       </div>
     </div>
   </nav>
-
   <section>
     <div class="container-perso d-flex flex-column align-items-center justify-content-center">
     </div>
@@ -108,59 +108,57 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-md-start">
-          <p class="pb-2">Nous trouver:</p>
-          <p class="text-center"><a class="nav-link text-dark"
+          <p class="pb-2 nav-link-footer">Nous trouver:</p>
+          <p class="text-center-footer"><a class="nav-link-footer"
               href="https://www.google.com/maps?q=3+rue+des+pierres+plantées,+69001+Lyon" target="_blank">3 rue des
               pierres plantées<br>69001 LYON</a></p>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <ul class="list-unstyled text-center text-md-start">
-            <li class="pb-2 contact text-center">Nous contacter:</li>
-            <div>
-              <li><a href="mailto:ledesjeuneur@gmail.com">ledesjeuneur@gmail.com</a></li>
-              <li class="text-center"><a class="nav-link text-dark" href="tel:0660787458">0660787458</a></li>
-              <div class="text-center">
-                <div class="circle-icon">
-                  <a href="https://www.instagram.com/ledesjeuneur/" target="_blank"><i class="fab fa-instagram fa-lg"
-                      style="color:black"></i></a>
-                </div>
-                <div class="circle-icon">
-                  <a href="https://www.facebook.com/ledesjeuneur" target="_blank"><i class="fab fa-facebook-f"
-                      style="color: black"></i></a>
-                </div>
-              </div>
+        <div class="col-md-4 d-flex flex-column align-items-center align-md-start mb-4">
+          <div class="text-center">
+            <p class="pb-2 nav-link-footer">Nous contacter:</p>
+            <ul class="list-unstyled text-md-start">
+              <li><a href="mailto:ledesjeuneur@gmail.com" class="nav-link-footer">ledesjeuneur@gmail.com</a></li>
+              <li class="text-center"><a class="nav-link-footer" href="tel:0660787458">0660787458</a></li>
+            </ul>
+          </div>
+          <div class="text-center">
+            <div class="circle-icon">
+              <a href="https://www.instagram.com/ledesjeuneur/" target="_blank"><i class="fab fa-instagram fa-lg" style="color:black"></i></a>
             </div>
-          </ul>
+            <div class="circle-icon">
+              <a href="https://www.facebook.com/ledesjeuneur" target="_blank"><i class="fab fa-facebook-f" style="color: black"></i></a>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center align-md-start">
-          <p class="pb-2">Horaires d'ouverture:</p>
-          <p>La cuisine ferme à 14h en semaine et 16h le week-end.</p>
+          <p class="pb-2 nav-link-footer">Horaires d'ouverture:</p>
+          <p class="hour">La cuisine ferme à 14h en semaine et 16h le week-end.</p>
           <div class="d-flex flex-column gap-2">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Lun:</span>
               <div>10h-16h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Mar:</span>
               <div>10h-16h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Mer:</span>
               <div>10h-16h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Jeu:</span>
               <div>10h-16h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Ven:</span>
               <div>10h-16h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Sam:</span>
               <div>10h-18h</div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between hour">
               <span>Dim:</span>
               <div>10h-18h</div>
             </div>
@@ -168,15 +166,14 @@
         </div>
       </div>
     </div>
-  </footer>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center p-5 copyright">
-        <p>© 2023 Le Desjeuneur - Tous droits réservés.</p> Créé par Gaëlle OZANON
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center p-5 copyright">
+          <p>© 2023 Le Desjeuneur - Tous droits réservés.</p> Créé par Gaëlle OZANON
+        </div>
       </div>
     </div>
-  </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
