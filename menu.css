@@ -11,17 +11,13 @@ html{
   height: 100%;
 }
 
-.nav-item {
-  margin-right: 20px;
-  margin-left: 20px;  /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
-}
-
-li {
-  list-style-type: none;
-}
-
-.nav-items-container {
-  flex: 1;
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FBEDDA; /* Changer la couleur de fond selon vos besoins */
+  z-index: 1000; /* Assurez-vous qu'il est au-dessus d'autres éléments si nécessaire */
 }
 
 .navbar-nav {
@@ -29,37 +25,6 @@ li {
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.logo-container {
-  flex: 1;
-}
-
-.coq-center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
-.logo {
-  width: 170px;
-}
-
-.coq {
-  width: 50px;
-}
-
-.icone {
-  width: 200px;
-  margin-top: 10px;
-}
-
-.navbar-perso a:hover {
-  color: brown;
-  text-decoration: none;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
 }
 
 .nav-link {
@@ -70,19 +35,22 @@ li {
   text-transform: uppercase;
 }
 
-.nav-items-container {
-  flex: 1;
-}
-
-.navbar-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
 .nav-item {
-  margin-left: 20px; /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
+  margin-right: 20px;
+  margin-left: 20px;  /* Ajustez l'espacement entre les éléments de navigation selon vos besoins */
+}
+
+.logo {
+  width: 170px;
+}
+
+.icone {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.coq {
+  width: 70px;
 }
 
 .container-perso {
@@ -94,12 +62,6 @@ li {
   width: 100%;
 }
 
-.banner {
-  font-family: 'Yeseva One', cursive;
-  font-size: 100px;
-  color: #fbedda;
-}
-/* Style des boutons de section */
 .section-buttons {
   text-align: center;
   margin-top: 10px;
@@ -125,7 +87,10 @@ li {
   display: flex;
   border: 1px solid lightgrey;
   margin-top: 70px;
+}
 
+li {
+  list-style-type: none;
 }
 
 .card-menu {
@@ -211,7 +176,6 @@ li {
   color: #000343;
 }
 
-
 .quantity {
   font-family: 'Yeseva One', cursive;
   font-size: 15px;
@@ -225,18 +189,6 @@ li {
   font-size: 20px;
   font-style: italic;
   padding-left: 20px;
-}
-
-.circle-icon {
-  display: inline-block;
-  width: 30px; /* Ajustez la taille du cercle selon vos besoins */
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  text-align: center;
-  line-height: 50px;
-  margin: 3px;
-  background-color: #FBEEDA /* Espace entre les icônes */
 }
 
 footer {
@@ -257,6 +209,18 @@ footer a {
 
 footer a:hover {
   color: #f7d298;
+}
+
+.circle-icon {
+  display: inline-block;
+  width: 30px; /* Ajustez la taille du cercle selon vos besoins */
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 3px;
+  background-color: #FBEEDA /* Espace entre les icônes */
 }
 
 .contact{
