@@ -71,7 +71,7 @@ body{
   margin-top: 8rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
   .container-perso {
     margin-top: 2rem; /* Règle par défaut pour les grands écrans */
   }
@@ -225,7 +225,7 @@ li {
   padding-left: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
  .in-card-infos {
   padding: 0px;
   font-size: 18px;

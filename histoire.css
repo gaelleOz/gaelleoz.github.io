@@ -109,7 +109,7 @@ body{
   margin-bottom: 100px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991.98px) {
   .container-perso {
     margin-top: 0px !important; /* Règle par défaut pour les grands écrans */
   }
