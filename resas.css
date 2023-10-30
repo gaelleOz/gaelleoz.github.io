@@ -79,7 +79,7 @@ li {
 
 @media (max-width: 767px) {
   .container-perso {
-    margin-top: 0px !important; 
+    margin-top: 0px !important;
   }
   .nav-link {
     color: black;
@@ -205,6 +205,6 @@ footer a:hover {
 
 @media (max-width: 1300px) {
   .navbar-nav .nav-link {
-    font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
   }
 }

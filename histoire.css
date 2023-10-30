@@ -191,6 +191,6 @@ footer a:hover {
 
 @media (max-width: 1300px) {
   .navbar-nav .nav-link {
-    font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
+    font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
   }
 }
