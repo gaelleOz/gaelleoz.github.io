@@ -24,6 +24,8 @@ li {
 
 .navbar{
   background-color: #FBEEDA;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -123,7 +125,7 @@ border-bottom: none;
 
 @media (max-width: 767px) {
   .container-perso {
-    margin-top: 2rem;
+    margin-top: 0px !important; 
   }
   .nav-link {
     color: black;
