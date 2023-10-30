@@ -561,3 +561,7 @@ footer a:hover {
     font-size: 12px; /* Ajustez la taille de la police selon vos besoins */
   }
 }
+
+a:visited {
+  color: black; /* Changez cette couleur selon vos préférences */
+}
