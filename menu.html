@@ -57,7 +57,11 @@
   </nav>
 
   <div class="container-perso d-flex align-items-center justify-content-between mb-5">
+  
   </div>
+
+
+</div>
 
   <div class="container-word">
     <div class="row">
@@ -92,11 +96,12 @@
   <div class="menu container d-flex flex-column">
     <div class="row">
       <div class="brunch card-menu col-md-12">
-        <div class="d-flex justify-content-between align-items-center brunch-row">
+        <div class="d-flex gap-4 align-items-center justify-content-center brunch-row">
           <h3 class="text-center carte">Formule brunch</h3>
           <p class="brunch-price">19,50€</p>
         </div>
-        <p>
+        <p class="text-center">
+        <img src="images/brunch-img.jpeg" alt="photo du brunch" class="brunch-img">
         <ul>
           <li class="card-infos mb-4">Une boisson chaude au choix</li>
           <li class="card-infos mb-4">+</li>
@@ -136,6 +141,7 @@
     <div class="row">
       <div class="plats card-menu col-md-12">
         <h3 class="text-center carte brunch-row ">A la carte</h3>
+        <img src="images/carte-img.jpeg" alt="photo de pancakes" class="carte-img">
         <div class="plats">
           <h5 class="card-title in-card">Banana pancakes</h5>
           <div class="d-flex justify-content-between align-items-center">
@@ -212,6 +218,13 @@
           </div>
         </div>
         <div class="plats">
+          <h5 class="card-title in-card">Grenailles rôties</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-infos in-card-infos">Pommes de terre rôties à l'huile d'olive, thym et fleur de sel</p>
+            <p class="price">4€</p>
+          </div>
+        </div>
+        <div class="plats">
           <h5 class="card-title in-card">Granola maison</h5>
           <div class="d-flex justify-content-between align-items-center">
             <p class="card-infos in-card-infos">Pépites d'avoines croquantes, noisettes et amandes rôties, yaourt
@@ -219,6 +232,27 @@
               bananes, éclats
               de chocolat, miel</p>
             <p class="price">6€</p>
+          </div>
+        </div>
+        <div class="plats">
+          <h5 class="card-title in-card">Pâtisseries maison</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-infos in-card-infos">Dessert du jour OU brownies chocolat et pécan OU crumble de saison</p>
+            <p class="price">4,50€</p>
+          </div>
+        </div>
+        <div class="plats">
+          <h5 class="card-title in-card">Notre fameuse brioche babka</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-infos in-card-infos">Pralines OU noisettes/chocolat</p>
+            <p class="price">3,50€</p>
+          </div>
+        </div>
+        <div class="plats">
+          <h5 class="card-title in-card">Suppléments</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-infos in-card-infos">Bacon croustillant OU Avocat(huile d'olive, fleur de sel, poivre) OU 2 oeufs plein air au plat</p>
+            <p class="price">3,50€</p>
           </div>
         </div>
       </div>
@@ -229,6 +263,7 @@
       <div class="row">
         <div class="boissons card-menu col-md-12">
           <h3 class="text-center carte brunch-row ">Boissons</h3>
+          <img src="images/coffee-img.jpeg" alt="coffee" class="coffee-img">
           <h4 class="category-drinks">Cafés || Placid</h4>
           <div class="card-menu-item">
             <div class="d-flex justify-content-between align-items-center align-items-md-start">
@@ -553,13 +588,13 @@
       </div>
     </div>
   </div>
- </div>
- <footer>
+</div>
+<footer>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4 d-flex flex-column justify-content-start align-items-center align-md-start">
         <p class="pb-2 nav-link-footer">Nous trouver:</p>
-        <p class="text-center-footer"><a class="nav-link-footer"
+        <p class="text-center-footer text-center"><a class="nav-link-footer"
             href="https://www.google.com/maps?q=3+rue+des+pierres+plantées,+69001+Lyon" target="_blank">3 rue des
             pierres plantées<br>69001 LYON</a></p>
       </div>
@@ -573,10 +608,12 @@
         </div>
         <div class="text-center">
           <div class="circle-icon">
-            <a href="https://www.instagram.com/ledesjeuneur/" target="_blank"><i class="fab fa-instagram fa-lg" style="color:black"></i></a>
+            <a href="https://www.instagram.com/ledesjeuneur/" target="_blank"><i class="fab fa-instagram fa-lg"
+                style="color:black"></i></a>
           </div>
           <div class="circle-icon">
-            <a href="https://www.facebook.com/ledesjeuneur" target="_blank"><i class="fab fa-facebook-f" style="color: black"></i></a>
+            <a href="https://www.facebook.com/ledesjeuneur" target="_blank"><i class="fab fa-facebook-f"
+                style="color: black"></i></a>
           </div>
         </div>
       </div>
@@ -625,31 +662,31 @@
   </div>
 </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const sectionButtons = document.querySelectorAll('.section-button');
-      const menuSections = document.querySelectorAll('.card-menu');
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const sectionButtons = document.querySelectorAll('.section-button');
+    const menuSections = document.querySelectorAll('.card-menu');
 
-      sectionButtons.forEach(button => {
-        button.addEventListener('click', () => {
-          const target = button.getAttribute('data-target');
+    sectionButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const target = button.getAttribute('data-target');
 
-          // Masquer toutes les sections
-          menuSections.forEach(section => {
-            section.style.display = 'none';
-          });
-
-          // Afficher la section cible
-          const targetSection = document.querySelector(`.${target}`);
-          if (targetSection) {
-            targetSection.style.display = 'block';
-          }
+        // Masquer toutes les sections
+        menuSections.forEach(section => {
+          section.style.display = 'none';
         });
+
+        // Afficher la section cible
+        const targetSection = document.querySelector(`.${target}`);
+        if (targetSection) {
+          targetSection.style.display = 'block';
+        }
       });
     });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </body>
 
