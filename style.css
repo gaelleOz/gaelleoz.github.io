@@ -61,9 +61,11 @@ body{
   .nav-link {
     color: black;
     text-decoration: none;
-    font-family: 'Yeseva One';
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.08em;
   }
   nav.fixed-top {
     position: relative; /* Remplacez la classe fixed-top par les styles désirés */
@@ -209,9 +211,13 @@ h1 {
 .horaires {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 25px;
+  font-size: 22px;
   margin-left: 100px;
   margin-right: 100px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .scrolling-text {
@@ -280,6 +286,15 @@ h1 {
   }
   .clients {
     font-size: 30px;
+  }
+  .horaires {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .speciality {
+    width: 100%;
+    height: 500px;
   }
 }
 

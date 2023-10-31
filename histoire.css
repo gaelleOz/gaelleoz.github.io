@@ -117,9 +117,11 @@ body{
   .nav-link {
     color: black;
     text-decoration: none;
-    font-family: 'Yeseva One';
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.08em;
   }
   .story {
     font-family: 'Yeseva One', cursive;
