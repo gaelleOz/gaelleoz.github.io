@@ -62,20 +62,20 @@ li {
   color:#FBEEDA;
 }
 
+.container-perso {
+  background-image: url("images/croixrousse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 50%;
+  min-height: 80vh;
+  width: 100%;
+  margin-top: 8rem; /* Règle par défaut pour les grands écrans */
+}
+
 .intro {
   font-family: 'Yeseva One', cursive;
   font-size: 30px;
   margin: 60px 90px 60px 90px;
-}
-
-.container-perso {
-  background-image: url("images/image004.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 40vh;
-  width: 100%;
-  margin-top: 8rem;
 }
 
 @media (max-width: 991.98px) {
@@ -96,6 +96,15 @@ li {
   }
   nav.fixed-top {
     position: relative; /* Remplacez la classe fixed-top par les styles désirés */
+  }
+  .container-perso {
+    background-image: url("images/croixrousse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+    min-height: 50vh;
+    width: 100%;
+    margin-top: 8rem; /* Règle par défaut pour les grands écrans */
   }
 }
 
