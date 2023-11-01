@@ -653,11 +653,6 @@ footer a:hover {
   }
 }
 
-/* Personnalisation de la couleur de fond lors du clic sur le bouton */
-.section-button:active { /* Remplacez cette couleur par celle de votre choix */
-  color: black; /* Couleur du texte lorsque le bouton est activé */
-}
-
 a:visited {
   color: black;
 }
@@ -666,6 +661,12 @@ a {
   color: black;
 }
 
-.section-button:visited { /* Remplacez cette couleur par celle de votre choix */
+.section-button {
+  color: black; /* Couleur du texte par défaut */
+}
+
+/* Styles pour les boutons après avoir été cliqués */
+.section-button:active,
+.section-button:focus { /* Vous pouvez ajouter :focus si nécessaire */
   color: black; /* Couleur du texte lorsque le bouton est activé */
 }
