@@ -201,8 +201,15 @@ li {
 .card-infos {
   font-family: 'Work sans', sans-serif;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 300;
   padding-left: 2rem;
+  text-align: center;
+}
+
+.brunch-list {
+ border: 1px solid white;
+ background-color: #f7d298;
+ padding-top: 20px;
 }
 
 .price {
@@ -219,7 +226,7 @@ li {
 }
 
 .coffee-img {
-  width: 400px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
   display: block;
@@ -227,7 +234,7 @@ li {
 }
 
 .brunch-img {
-  width: 400px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
   display: block;
@@ -235,11 +242,12 @@ li {
 }
 
 .carte-img {
-  width: 400px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .category-drinks {
@@ -313,25 +321,28 @@ li {
   font-size: 16px;
  }
  .brunch-img {
-  width: 200px;
+  width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
  }
  .coffee-img {
-  width: 200px;
+  width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
  }
  .carte-img {
-  width: 200px;
+  width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+ }
+ .card-infos {
+  padding-left: 0px;
  }
 }
 
