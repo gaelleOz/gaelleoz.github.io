@@ -127,6 +127,13 @@ body{
   nav.fixed-top {
     position: relative; /* Remplacez la classe fixed-top par les styles désirés */
   }
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 40vh; /* Définit une hauteur maximale de 100vh */
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
 }
 
 .section-buttons {
