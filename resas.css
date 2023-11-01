@@ -146,8 +146,8 @@ li {
 
 
 .QRcode {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   display: block;
 }
@@ -157,6 +157,11 @@ li {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Optionnel : centrer verticalement sur toute la hauteur de la fenêtre */
+}
+
+.google {
+  margin: 0 auto;
+  display: block;
 }
 
 footer {

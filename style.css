@@ -245,8 +245,8 @@ h1 {
 }
 
 .QRcode {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
   display: block;
 }
@@ -269,6 +269,43 @@ h1 {
   margin-bottom: 20px;
   font-size: 50px;
   text-align: center;
+}
+
+.actus {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.center-btn {
+  text-align: center;
+}
+
+.btn-insta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FBEDDA;
+  color: black;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn-insta i {
+  margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+
+.btn-text {
+  display: inline-block;
+}
+
+.btn-insta:hover {
+  background-color: #f7d298; /* Couleur de fond au survol */
 }
 
 @media (max-width: 991.98px) {
