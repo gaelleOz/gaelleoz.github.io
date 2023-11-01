@@ -665,3 +665,7 @@ a:visited {
 a {
   color: black;
 }
+
+.section-button:visited { /* Remplacez cette couleur par celle de votre choix */
+  color: black; /* Couleur du texte lorsque le bouton est activé */
+}
