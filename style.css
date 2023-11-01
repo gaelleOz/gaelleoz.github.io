@@ -334,6 +334,13 @@ h1 {
     width: 100%;
     height: 500px;
   }
+  .QRcode {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
 }
 
 .carousel-image {

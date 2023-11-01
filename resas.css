@@ -78,6 +78,13 @@ li {
   margin: 60px 90px 60px 90px;
 }
 
+.QRcode {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 991.98px) {
   .container-perso {
     margin-top: 0px !important;
@@ -105,6 +112,12 @@ li {
     min-height: 50vh;
     width: 100%;
     margin-top: 8rem; /* Règle par défaut pour les grands écrans */
+  }
+  .QRcode {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
   }
 }
 
@@ -151,14 +164,6 @@ li {
   border-radius: 50%;
   margin-right: 7px;
   font-weight: bold;
-}
-
-
-.QRcode {
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  display: block;
 }
 
 .center-content {
