@@ -173,11 +173,6 @@ li {
   height: 100vh; /* Optionnel : centrer verticalement sur toute la hauteur de la fenêtre */
 }
 
-.google {
-  margin: 0 auto;
-  display: block;
-}
-
 footer {
   background-color: #FBEEDA;
   font-size: 18px;
