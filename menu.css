@@ -657,3 +657,11 @@ footer a:hover {
 .section-button:active { /* Remplacez cette couleur par celle de votre choix */
   color: black; /* Couleur du texte lorsque le bouton est activé */
 }
+
+a:visited {
+  color: black;
+}
+
+a {
+  color: black;
+}
