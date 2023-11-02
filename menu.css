@@ -124,9 +124,6 @@ body{
   .coq {
     width: 50px;
   }
-  nav.fixed-top {
-    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
-  }
   .banner {
     position: relative;
     width: 100%;

@@ -137,9 +137,6 @@ border-bottom: none;
     font-weight: 300;
     letter-spacing: 0.08em;
   }
-  nav.fixed-top {
-    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
-  }
   .coq {
     width: 50px;
   }

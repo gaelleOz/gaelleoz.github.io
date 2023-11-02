@@ -129,9 +129,6 @@ body{
     text-align: center;
     margin-top: 40px;
   }
-  nav.fixed-top {
-    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
-  }
   .coq {
     width: 50px;
   }
@@ -149,6 +146,9 @@ body{
   .text {
    margin-top: 20px;
    margin-bottom: 20px;
+  }
+  .row {
+    width: 100% !important;
   }
 }
 
