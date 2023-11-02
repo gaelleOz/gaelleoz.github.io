@@ -92,9 +92,9 @@
         <div class="coffee-footer"></div>
       </div>
       <div class="section-buttons d-flex flex-column align-items-center mt-4">
-        <button class="section-button mb-2" data-target="brunch">Brunch</button>
-        <button class="section-button mb-2" data-target="plats">A la carte</button>
-        <button class="section-button mb-2" data-target="boissons">Boissons</button>
+        <button class="section-button mb-2" data-target="brunch" onclick="scrollToBrunch()">Brunch</button>
+        <button class="section-button mb-2" data-target="plats"  onclick="scrollToCart()">A la carte</button>
+        <button class="section-button mb-2" data-target="boissons" onclick="scrollToDrinks()">Boissons</button>
       </div>
     </div>
   </div>
@@ -102,8 +102,8 @@
 <div class="menu container d-flex flex-column">
   <div class="row">
     <div class="brunch card-menu col-md-12">
-      <div class="d-flex gap-4 align-items-center justify-content-center brunch-row">
-        <h3 class="text-center carte">Formule brunch</h3>
+      <div class="d-flex gap-4 align-items-center justify-content-center brunch-row" id="brunch">
+        <h3 class="text-center carte">Brunch</h3>
         <p class="brunch-price">19,50€</p>
       </div>
       <p class="text-center">
@@ -146,7 +146,7 @@
   </div>
   <div class="row">
     <div class="plats card-menu col-md-12">
-      <h3 class="text-center carte brunch-row ">A la carte</h3>
+      <h3 class="text-center carte brunch-row" id="plats">A la carte</h3>
       <img src="images/croque.jpg" alt="photo de croque monsieur" class="carte-img">
       <div class="plats mt-5">
         <h5 class="card-title in-card">Banana pancakes</h5>
@@ -267,8 +267,8 @@
 
   <div class="container">
     <div class="row">
-      <div class="boissons card-menu col-md-12">
-        <h3 class="text-center carte brunch-row ">Boissons</h3>
+      <div class="boissons card-menu col-md-12" id="boissons">
+        <h3 class="text-center carte brunch-row">Boissons</h3>
         <img src="images/coffee-img.jpeg" alt="coffee" class="coffee-img mb-5">
         <h4 class="category-drinks">Cafés || Placid</h4>
         <div class="card-menu-item">
@@ -671,32 +671,26 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const sectionButtons = document.querySelectorAll('.section-button');
-    const menuSections = document.querySelectorAll('.card-menu');
+  function scrollToBrunch() {
+  const brunchSection = document.getElementById("brunch");
+  if (brunchSection) {
+    brunchSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
 
-    sectionButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const target = button.getAttribute('data-target');
-
-        // Masquer toutes les sections
-        menuSections.forEach(section => {
-          section.style.display = 'none';
-        });
-
-        // Afficher la section cible
-        const targetSection = document.querySelector(`.${target}`);
-        if (targetSection) {
-          targetSection.style.display = 'block';
-        }
-      });
-    });
-
-  });
-
-
+function scrollToCart() {
+  const platsSection = document.getElementById("plats");
+  if (platsSection) {
+    platsSection.scrollIntoView({ behavior: "smooth" });
+}
+}
+function scrollToDrinks() {
+  const boissonsSection = document.getElementById("boissons");
+  if (boissonsSection) {
+    boissonsSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </body>
 

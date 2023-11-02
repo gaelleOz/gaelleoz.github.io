@@ -93,10 +93,10 @@ body{
 }
 
 .container-perso {
-  background-image: url("images/Photo\ 26-01-2022\ 12\ 06\ 57.jpg");
+  background-image: url("images/image003.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40% 50%;
+  background-position: 40% 60%;
   min-height: 60vh;
   width: 100%; /* Règle par défaut pour les grands écrans */
 }
@@ -111,7 +111,8 @@ body{
 
 @media (max-width: 991.98px) {
   .container-perso {
-    margin-top: 0px !important; /* Règle par défaut pour les grands écrans */
+    margin-top: 0px !important;
+    min-height: 40vh;/* Règle par défaut pour les grands écrans */
   }
   .nav-link {
     color: black;

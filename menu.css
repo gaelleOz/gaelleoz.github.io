@@ -71,7 +71,7 @@ body{
 .banner {
   position: relative;
   width: 100%;
-  height: 80vh; /* Définit une hauteur maximale de 100vh */
+  height: 60vh; /* Définit une hauteur maximale de 100vh */
   overflow: hidden;
   margin-bottom: 180px;
 }
@@ -136,6 +136,7 @@ body{
 .section-buttons {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .section-button {
@@ -204,8 +205,8 @@ li {
 }
 
 .brunch-list {
- border: 1px solid white;
- background-color: #f7d298;
+ border: 1px solid #FDE6C5;
+ background-color: #FDE6C5;
  padding-top: 20px;
 }
 
@@ -232,10 +233,8 @@ li {
 
 .brunch-img {
   width: 100%;
-  height: 400px;
+  height:400px;
   object-fit: cover;
-  display: block;
-  margin: 0 auto;
 }
 
 .carte-img {
