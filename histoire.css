@@ -97,9 +97,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 50%;
-  min-height: 40vh;
-  width: 100%;
-  margin-top: 8rem; /* Règle par défaut pour les grands écrans */
+  min-height: 60vh;
+  width: 100%; /* Règle par défaut pour les grands écrans */
 }
 
 .text{

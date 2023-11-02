@@ -67,9 +67,9 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 50%;
-  min-height: 80vh;
+  min-height: 60vh;
   width: 100%;
-  margin-top: 8rem; /* Règle par défaut pour les grands écrans */
+ /* Règle par défaut pour les grands écrans */
 }
 
 .intro {
@@ -86,9 +86,6 @@ li {
 }
 
 @media (max-width: 991.98px) {
-  .container-perso {
-    margin-top: 0px !important;
-  }
   .nav-link {
     color: black;
     text-decoration: none;
@@ -101,17 +98,14 @@ li {
   .coq {
     width: 50px;
   }
-  nav.fixed-top {
-    position: relative; /* Remplacez la classe fixed-top par les styles désirés */
-  }
+
   .container-perso {
     background-image: url("images/croixrousse.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 50%;
-    min-height: 50vh;
-    width: 100%;
-    margin-top: 8rem; /* Règle par défaut pour les grands écrans */
+    min-height: 40vh;
+    margin-top: 0rem;
   }
   .QRcode {
     width: 150px;
@@ -143,14 +137,14 @@ li {
 .book-2 {
   font-family: 'Yeseva One', cursive;
   font-size: 20px;
-  margin: 30px 20px;
+  margin: 30px 25px;
   text-align: center;
 }
 
 .steps {
   font-family: 'Yeseva One', cursive;
   font-size: 60px;
-  margin: 80px 20px;
+  margin: 40px 20px;
   text-align: center;
 }
 
@@ -211,6 +205,7 @@ footer a:hover {
 .hour {
   font-family: 'Yeseva One', cursive;
   font-size: 16px;
+  text-align: center;
 }
 
 .day {
@@ -236,4 +231,8 @@ a:visited {
 
 a {
   color: black;
+}
+
+ol {
+  padding-right: 2rem;
 }
