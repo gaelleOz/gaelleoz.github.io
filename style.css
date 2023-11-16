@@ -451,3 +451,72 @@ a {
 .btn-menu {
  font-family: 'Yeseva One', cursive;
 }
+
+.card-presse {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales par ligne */
+  gap: 100px 20px; /* Espacement entre les cartes */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.card a {
+  text-decoration: none;
+  color: #333; /* Couleur du texte du lien */
+}
+
+.card img {
+  width: 100%; /* Taille de l'image à 100% de la largeur de la carte */
+  max-height: 200px; /* Taille maximale de l'image en hauteur */
+  object-fit: cover; /* Évite la déformation de l'image */
+}
+
+.card h3 {
+  text-align: center; /* Aligner le texte au centre */
+  margin: 10px 0; /* Espacement entre le titre et le reste du contenu */
+}
+
+.card p.fst-italic {
+  text-align: center; /* Aligner le texte au centre */
+  margin: 0; /* Supprimer la marge par défaut */
+  font-style: italic; /* Appliquer le style italic */
+}
+
+.spotify {
+ background-color: #282828;
+ padding: 10px;
+}
+
+.ambiance {
+  color:white;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .ambiance {
+    font-size: 20px;
+    padding-top:20px;
+  }
+  .spotify {
+    flex-direction: column;
+    margin: 0;
+  }
+  .clients{
+    margin: 40px 30px;
+  }
+  .card-presse {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colonnes égales par ligne */
+    gap: 30px 10px;
+    margin-right: 10px;
+    margin-left: 10px;/* Espacement entre les cartes */
+  }
+}
+/* Style supplémentaire selon vos besoins */
