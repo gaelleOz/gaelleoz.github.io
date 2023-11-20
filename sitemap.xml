@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Racine du site -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/</loc>
+   </url>
+
+   <!-- Page d'accueil -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/index.html</loc>
+   </url>
+
+   <!-- Page Menu -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/menu.html</loc>
+   </url>
+
+   <!-- Page Histoire -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/histoire.html</loc>
+   </url>
+
+   <!-- Page Producteurs -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/producteurs.html</loc>
+   </url>
+
+   <!-- Page Réservations -->
+   <url>
+      <loc>https://www.ledesjeuneur.com/resas.html</loc>
+   </url>
+
+</urlset>
+
