@@ -472,7 +472,7 @@ a {
 }
 
 .card img {
-   width: 100%; /* Taille de l'image à 100% de la largeur de la carte */
+  width: 100%; /* Taille de l'image à 100% de la largeur de la carte */
   max-height: 200px; /* Taille maximale de l'image en hauteur */
   object-fit: cover; /* Évite la déformation de l'image */
   display: block; /* Élimine l'espace réservé pour les images non chargées */
@@ -519,6 +519,20 @@ a {
     gap: 30px 10px;
     margin-right: 10px;
     margin-left: 10px;/* Espacement entre les cartes */
+  }
+  .card img {
+    width: 100%;
+    height: 100px;
+  }
+  .card h3 {
+    font-size: 16px; /* Espacement entre le titre et le reste du contenu */
+  }
+
+  .card p.fst-italic {
+    font-size: 12px;/* Appliquer le style italic */
+  }
+  .suite {
+    font-size: 10px;
   }
 }
 /* Style supplémentaire selon vos besoins */
