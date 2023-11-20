@@ -472,9 +472,11 @@ a {
 }
 
 .card img {
-  width: 100%; /* Taille de l'image à 100% de la largeur de la carte */
+   width: 100%; /* Taille de l'image à 100% de la largeur de la carte */
   max-height: 200px; /* Taille maximale de l'image en hauteur */
   object-fit: cover; /* Évite la déformation de l'image */
+  display: block; /* Élimine l'espace réservé pour les images non chargées */
+  margin: 0 auto;  /* Évite la déformation de l'image */
 }
 
 .card h3 {
