@@ -226,7 +226,7 @@ h1 {
 
 .scrolling-text p {
   display: inline-block;
-  animation: scrollText 10s linear infinite;
+  animation: scrollText 18s linear infinite;
   transform: translateX(-100%);
 }
 
