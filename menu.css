@@ -202,6 +202,7 @@ li {
   font-weight: 300;
   padding-left: 2rem;
 
+
 }
 
 .card-infos-brunch {
@@ -329,6 +330,7 @@ li {
  .in-card-infos {
   padding: 0px;
   font-size: 16px;
+
  }
  .mode-column {
   flex-direction: column !important;
@@ -379,6 +381,7 @@ li {
  }
  .card-infos {
   padding-left: 0px;
+  text-align: center;
  }
 }
 
